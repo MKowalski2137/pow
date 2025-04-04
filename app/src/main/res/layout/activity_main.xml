@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5DC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="POWIADOMIENIA"
+        android:textSize="45dp"
+        android:textColor="#333"
+        />
+    <Button
+        android:id="@+id/powiadomienie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="Powiadomienie"
+        android:textColor="#000"
+        android:backgroundTint="#A0FFDD"
+        />
+
+    <Button
+        android:id="@+id/dlugie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Powiadomienie długie"
+        android:backgroundTint="#abc"
+        android:textColor="#000"
+        />
+    <Button
+        android:id="@+id/obraz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Powiadomienie z obrazem"
+        android:backgroundTint="#68a"
+        android:textColor="#000"
+        />
+
+
+</LinearLayout>
