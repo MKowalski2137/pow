@@ -43,7 +43,7 @@ public class pomocnik {
 
 
         switch (styleType) {
-            case 1:     //robi zwykłą wiadomość
+            case 1:     //robi długą wiadomość
                 budowniczy.setStyle(new NotificationCompat.BigTextStyle().bigText(message));
                 break;
             case 2:     //robi wiadomość z obrazem
@@ -53,7 +53,7 @@ public class pomocnik {
                     budowniczy.setStyle(new NotificationCompat.BigPictureStyle().bigPicture(largeIcon).setBigContentTitle(title));
                 }
                 break;
-            case 3:     //robi długą wiadomość
+            case 3:     //robi zwykłą wiadomość
                 NotificationCompat.InboxStyle inboxStyle = new NotificationCompat.InboxStyle();
                 inboxStyle.addLine(message);
                 inboxStyle.addLine("Dodatkowa linia tekstu");
